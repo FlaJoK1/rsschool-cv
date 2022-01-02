@@ -32,3 +32,18 @@ int countSquares(int cuts) {
   return x;
 }
 ```  
+
+*****
+## Experience:  
+I'm working on portfolio. Coming soon... 
+
+*****
+## Education:  
+* Belarusian State University of Informatics and Radioelectronics (in progress)   
+* **Courses**:  
+  + [C# courses](https://www.youtube.com/watch?v=p9QxqrwkPbA&list=PLIIXgDT0bKw4OmiZ9yGmShKsY0XncViZ8)  
+  + [RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)](https://app.rs.school/)  
+
+*****
+## English level:
+I have **B2** level and I've practiced English a lot with my foreign friends
