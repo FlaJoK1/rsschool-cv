@@ -1,15 +1,12 @@
-h1 {
-    color: red;
-}
-
-h2 {
-    color: #FF7800;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
 }
 
 * {
     box-sizing: border-box;
 }
+
