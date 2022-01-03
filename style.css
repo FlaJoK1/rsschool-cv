@@ -25,16 +25,11 @@ body {
     margin: 0 auto;
 }
 
-.main-container {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .section {
     background-color: white;
     color: black;
-    margin: 1px;
-    width: 33%;
+    width: calc(40%-5px);
+    border-top: 3px solid darkseagreen;
 }
 
 .profile {
@@ -42,18 +37,34 @@ body {
     background-color: white;
 }
 
+.image {
+    color: black;
+    border-radius: 50%;
+}
+
+#Contacs {
+    border-top: none;
+}
+
 #Aboutme {
     background-color: white;
     padding: 50px 30px 35px;
     width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 2px solid rgb(163, 168, 116);
+    flex-direction: row;
+    border-top: none;
+    border-bottom: 10px solid rgb(163, 168, 116);
 }
 
-.header {
+#Education {
+    color:black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
     background-color: darkseagreen;
     height: 8vh;
+    border-top: none;
 }
 
 .nav-link {
@@ -61,7 +72,6 @@ body {
 }
 
 .nav-list {
-    color: orange;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -73,4 +83,22 @@ body {
 footer {
     background-color: darkseagreen;
     height: 8vh;
+    width: auto;
+    color: black;
+}
+
+.footer_container {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.favicon {
+    width: auto;
+    height: 30px;
+}
+
+.link {
+    color: black;
 }
