@@ -6,7 +6,12 @@ html {
     scroll-behavior: smooth;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
+    color: #000;
     text-decoration: none;
 }
 
@@ -77,17 +82,14 @@ header {
 }
 
 .nav-link {
-    position: relative;
     color:white;
-    text-decoration: none;
     font-size: 30px;
-    padding: 0 10px;
+    padding: 0 30px;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
-    list-style: none;
     padding: 0 20px;
     line-height: 50px;
 }
@@ -107,12 +109,8 @@ footer {
 }
 
 .icon {
-    width: auto;
-    height: 40px;
-}
-
-.link {
-    color: black;
+    width: 80px;
+    height: 80px;
 }
 
 .text {
