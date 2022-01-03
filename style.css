@@ -1,4 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -11,11 +18,25 @@ body {
 }
 
 .main-container {
-    
+
 display: flex;
 flex-flow: row wrap;
 }
 
 .section {
     width: calc(50%-20px);
+}
+
+.nav-list {
+    color: orange;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.nav {
+    background-color: darkseagreen;
 }
