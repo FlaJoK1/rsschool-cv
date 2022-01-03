@@ -11,7 +11,18 @@
     <title>CV</title>
 </head>
 <body>
-    <header>My CV</header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Code Examples">Code Examples</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#English level">English level</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="container main-container">
             <section class="section" id="About me">
@@ -50,7 +61,8 @@
             </section>
             <section class="section" id="Code Examples">
                 <h2>Code: </h2>
-                <code>
+                <pre class="pre">
+                    <code>
                     int countSquares(int cuts) {  
                         int x;  
                         int y;  
@@ -62,14 +74,29 @@
                         else  
                         return x;  
                       }  
-                </code>
+                    </code>
+                </pre>
             </section>
             <section class="section" id="Experience">
                 <h2>Experience: </h2>
                 <p>I'm workng on portfolio. Coming soon...</p>
             </section>
-            <section class="section" id="Education"></section>
-            <section class="section" id="English level"></section>
+            <section class="section" id="Education">
+                <h2>Education: </h2>
+                <ul>
+                    <li>Belarusian State University of Informatics and Radioelectronics (in progress)</li>
+                    <li><span style="color: black;font-weight: bold;">Courses: </span>
+                        <ul>
+                            <li><a href="https://www.youtube.com/watch?v=p9QxqrwkPbA&list=PLIIXgDT0bKw4OmiZ9yGmShKsY0XncViZ8">C# courses</a></li>
+                            <li><a href="https://app.rs.school/">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="English level">
+                <h2>English level: </h2>
+                <p>I have <span style="color: black;font-weight: bold;">B2 </span>level and I've practised English a lot with my foreign friends</p>
+            </section>
         </div>
     </main>
     <footer>links</footer>
