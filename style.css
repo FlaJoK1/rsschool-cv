@@ -6,6 +6,15 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
 body {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
@@ -68,12 +77,15 @@ header {
 }
 
 .nav-link {
+    position: relative;
     color:white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0 10px;
 }
 
 .nav-list {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     list-style: none;
     padding: 0 20px;
@@ -94,11 +106,15 @@ footer {
     justify-content: space-between;
 }
 
-.favicon {
+.icon {
     width: auto;
-    height: 30px;
+    height: 40px;
 }
 
 .link {
     color: black;
+}
+
+.text {
+    font-size: 25px;
 }
