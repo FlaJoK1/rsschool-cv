@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(max-width:768px){
+    .section{
+        width:100%;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: white;
+    color: black;
+    width: calc(40%-5px);
+    border-top: 3px solid darkseagreen;
+}
+
+.profile {
+    margin:10px;
+    background-color: white;
+}
+
+.image {
+    color: black;
+    border-radius: 50%;
+}
+
+#Contacs {
+    border-top: none;
+}
+
+#Aboutme {
+    background-color: white;
+    padding: 50px 30px 35px;
+    width: 100%;
+    flex-direction: row;
+    border-top: none;
+    border-bottom: 10px solid rgb(163, 168, 116);
+}
+
+#Education {
+    color:black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkseagreen;
+    height: 8vh;
+    border-top: none;
+}
+
+.nav-link {
+    color:white;
+    font-size: 30px;
+    padding: 0 30px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+footer {
+    background-color: darkseagreen;
+    height: 8vh;
+    width: auto;
+    color: black;
+}
+
+.footer_container {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+.text {
+    font-size: 25px;
+}
